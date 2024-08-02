@@ -27,7 +27,12 @@ const Hero = () => {
 
             <div className='flex justify-center relative my-20 z-10'>
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center  justify-center'>
-                    <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+
+                    <h1 className="text-center md:tracking-wider mb-4  text-sm md:text-lg lg:text-2xl ">
+                        Hey!! I&apos;m <b className='text-orange-600 hover:text-amber-400'>Abdullah Al Suad</b>
+                    </h1>
+
+                    <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-100">
                         Student | Programmer | Front-End Web Developer
                     </h2>
 
@@ -36,9 +41,8 @@ const Hero = () => {
                         className="text-center text-[40px] md:text-5xl lg:text-6xl"
                     />
 
-                    <p className="text-center md:tracking-wider mb-4  text-sm md:text-lg lg:text-2xl">
-                        Hey!! I&apos;m Suad,  a <b className='text-purple'>Front-End</b>  Web Developer.
-                    </p>
+                    
+                    
 
                     <a href="#about">
                         <MagicButton
